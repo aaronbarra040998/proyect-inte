@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de estacionamientos</title>
+</head>
+<body>
+    <h1>Lista de estacionamientos</h1>
+    <ul>
+        {% for estacionamiento in estacionamientos %}
+        <li>
+            <strong>Lugar:</strong> {{ estacionamiento.lugar }}<br>
+            <strong>Estado:</strong> {{ estacionamiento.estado }}
+        </li>
+        {% endfor %}
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,4 @@
+venv/
+SmartSparking/db.sqlite3
+SmartSparking/api/migrations/
+SmartSparking/web/migrations/
